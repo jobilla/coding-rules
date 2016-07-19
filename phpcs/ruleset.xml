@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<ruleset name="Bigbank">
+<ruleset name="Finternet-Group">
 
-    <description>A custom coding standard for Bigbank projects</description>
+    <description>A custom phpcs ruleset for Finternet-Group's software projects</description>
 
     <exclude-pattern type="relative">^/vendor/*</exclude-pattern>
 
@@ -13,6 +13,7 @@
     <!-- A PHP file must not end with a closing tag (?>) -->
     <rule ref="Zend.Files.ClosingTag"/>
 
+    <!-- Others -->
     <rule ref="Generic.Classes.DuplicateClassName"/>
     <rule ref="Generic.CodeAnalysis.ForLoopShouldBeWhileLoop"/>
     <rule ref="Generic.CodeAnalysis.ForLoopWithTestFunctionCall"/>

@@ -9,7 +9,7 @@
  * @see http://confluence.jetbrains.com/display/PhpStorm/Zero-configuration+Web+Application+Debugging+with+Xdebug+and+PhpStorm
  * @package CodeSniffer\Standards\Bigbank\Sniffs\Debug
  */
-class Bigbank_Sniffs_Debug_DisallowDebugFunctionsSniff extends Generic_Sniffs_PHP_ForbiddenFunctionsSniff {
+class phpcs_Sniffs_Debug_DisallowDebugFunctionsSniff extends Generic_Sniffs_PHP_ForbiddenFunctionsSniff {
 
     /**
      * A list of forbidden functions with their alternatives.

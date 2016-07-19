@@ -1,3 +1,10 @@
 {
-  "name": "finternet-group/coding-rules"
+  "name": "finternet-group/coding-rules",
+  "require": {
+    "squizlabs/php_codesniffer": "~2",
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "classmap": ["tests/TestCase.php", "tests"]
+  }
 }

@@ -6,7 +6,7 @@
     <exclude-pattern type="relative">^/vendor/*</exclude-pattern>
 
     <!-- Include the whole PSR-2 standard as a base reference-->
-    <rule ref="PSR2" />
+    <rule ref="PSR2"/>
 
     <!-- In addition to the base coding standard, include some other helpful sniffs -->
 
@@ -38,4 +38,7 @@
     <!-- Throws an error or warning when any code prefixed with an @ is encountered -->
     <rule ref="Generic.PHP.NoSilencedErrors"/>
 
+    <rule ref="PSR1">
+        <exclude name="PSR1.Methods.CamelCapsMethodName.NotCamelCaps"/>
+    </rule>
 </ruleset>

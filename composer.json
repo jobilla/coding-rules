@@ -13,13 +13,6 @@
         "phpcs",
         "clean php code"
     ],
-  "require": {
-    "squizlabs/php_codesniffer": "~2",
-    "php": ">=5.6"
-    },
-    "autoload": {
-        "classmap": ["tests/TestCase.php", "tests"]
-    },
     "license": "Apache-2.0",
     "config": {
         "preferred-install" : "dist"

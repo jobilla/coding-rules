@@ -49,8 +49,8 @@ https://www.jetbrains.com/help/phpstorm/10.0/using-php-code-sniffer-tool.html
 ```
 $ vendor/bin/phpmd --reportfile ./phpmd-report.html app/ html vendor/finternet-group/coding-rules/phpmd/ruleset.xml
 $ vendor/bin/phpcs --standard=./vendor/finternet-group/coding-rules/phpcs/ruleset.xml --report-file=./phpcs-report.txt app/
-$ vendor/bin/phpcpd app/ > ../phpcpd-report.txt
-$ vendor/bin/phploc app/ > ../phploc-report.txt
+$ vendor/bin/phpcpd app/ > ./phpcpd-report.txt
+$ vendor/bin/phploc app/ > ./phploc-report.txt
 $ vendor/bin/phpunit > ./phpunit-report.txt
 ```
 

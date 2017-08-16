@@ -1,4 +1,4 @@
-## Finternet-Group's code quality inspections tools' configurations
+## Jobilla's code quality inspections tools' configurations
 
 ### Full QA set for PHP code includes the following tools
 * PHPUNIT (https://github.com/sebastianbergmann/phpunit)
@@ -35,20 +35,20 @@ https://www.jetbrains.com/help/phpstorm/10.0/using-php-code-sniffer-tool.html
         "phpmd/phpmd" : "@stable",
         "phploc/phploc": "*",
         "sebastian/phpcpd": "*",
-        "finternet-group/coding-rules": "dev-master"
+        "jobilla/coding-rules": "dev-master"
         },
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:finternet-group/coding-rules.git"
+            "url": "git@github.com:jobilla/coding-rules.git"
         }
     ]
 ```
 * Run the tools via CLI or integrate into your development tools
 * Running via CLI example:
 ```
-$ vendor/bin/phpmd --reportfile ./phpmd-report.html app/ html vendor/finternet-group/coding-rules/phpmd/ruleset.xml
-$ vendor/bin/phpcs --standard=./vendor/finternet-group/coding-rules/phpcs/ruleset.xml --report-file=./phpcs-report.txt app/
+$ vendor/bin/phpmd --reportfile ./phpmd-report.html app/ html vendor/jobilla/coding-rules/phpmd/ruleset.xml
+$ vendor/bin/phpcs --standard=./vendor/jobilla/coding-rules/phpcs/ruleset.xml --report-file=./phpcs-report.txt app/
 $ vendor/bin/phpcpd app/ > ./phpcpd-report.txt
 $ vendor/bin/phploc app/ > ./phploc-report.txt
 $ vendor/bin/phpunit > ./phpunit-report.txt

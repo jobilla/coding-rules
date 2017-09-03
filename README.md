@@ -59,7 +59,7 @@ PHPCS ships with an executable called `phpcbf`, which allows automatically fixin
 
 Example of running `phpcbf` via CLI:  
 ```
-$ vendor/bin/phpcbf --standard=vendor/finternet-group/coding-rules/phpcs/ruleset.xml app  
+$ vendor/bin/phpcbf --standard=vendor/jobilla/coding-rules/phpcs/ruleset.xml app  
 ```
 
 

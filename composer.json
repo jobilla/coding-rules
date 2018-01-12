@@ -1,13 +1,13 @@
 {
-    "name": "finternet-group/coding-rules",
-    "description": "Finternet-Group's general code styling rules for different tools",
-    "homepage": "https://github.com/finternet-group/coding-rules",
+    "name": "jobilla/coding-rules",
+    "description": "Jobilla's general code styling rules for different tools",
+    "homepage": "https://github.com/jobilla/coding-rules",
     "require": {
         "squizlabs/php_codesniffer": "~2",
         "phpmd/phpmd" : "@stable"
     },
     "keywords": [
-        "Finternet-Group",
+        "Jobilla",
         "php code style",
         "code standards",
         "phpcs",
